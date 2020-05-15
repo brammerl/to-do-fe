@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders app correctly 1`] = `
+<div
+  className="App"
+>
+  <BrowserRouter>
+    <ul>
+      <br />
+      <br />
+      <Link
+        to="/login"
+      >
+        Login
+      </Link>
+      <br />
+      <Link
+        to="/signup"
+      >
+        Signup
+      </Link>
+      <br />
+    </ul>
+    <Switch>
+      <Route
+        exact={true}
+        path="/login"
+        render={[Function]}
+      />
+      <Route
+        exact={true}
+        path="/signup"
+        render={[Function]}
+      />
+      <PrivateRoute
+        exact={true}
+        path="/todo"
+        render={[Function]}
+        token={null}
+      />
+    </Switch>
+  </BrowserRouter>
+</div>
+`;

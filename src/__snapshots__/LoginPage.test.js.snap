@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders app correctly 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <label>
+      Email
+      <input
+        onChange={[Function]}
+        value=""
+      />
+    </label>
+    <label>
+      Password
+      <input
+        onChange={[Function]}
+      />
+    </label>
+    <button>
+      Login
+    </button>
+  </form>
+</div>
+`;

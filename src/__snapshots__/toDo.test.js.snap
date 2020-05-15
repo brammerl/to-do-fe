@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders quests correctly 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <label>
+      Add New Task
+      <input
+        onChange={[Function]}
+      />
+    </label>
+    <button>
+      Submit
+    </button>
+  </form>
+  <section>
+    <ul />
+  </section>
+</div>
+`;
